@@ -92,3 +92,4 @@ LED ON
 ![Screenshot 2024-03-15 093554](https://github.com/panimalarponnurangam/Led-control-using-Arduino/assets/121490826/2880ffc0-82be-4541-93a4-e7afd2cfbeaf)
 
 ## RESULT
+Thus ,the LED control using an Arduino microcontroller and a push button was successfully executed.
