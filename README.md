@@ -59,8 +59,36 @@ Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
 
-## PROGRAM
+![Screenshot 2024-03-15 101936](https://github.com/panimalarponnurangam/Led-control-using-Arduino/assets/121490826/c3ccc9f2-71d2-4c7d-9335-4f07422cd33b)
 
+
+## PROGRAM
+````
+const int buttonPin = 4;     
+const int ledPin =  13;     
+int buttonState = 0;         
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
+}
+void loop()
+{
+  buttonState = digitalRead(buttonPin);
+  if (buttonState == HIGH) 
+{
+  digitalWrite(ledPin, HIGH);
+} 
+  else 
+{
+  digitalWrite(ledPin, LOW);
+}
+}
+````
 ## OUTPUT
+LED OFF
+![Screenshot 2024-03-15 093515](https://github.com/panimalarponnurangam/Led-control-using-Arduino/assets/121490826/8ee858dd-4b7f-488c-9cb8-9977b270dfb3)
+
+LED ON
+![Screenshot 2024-03-15 093554](https://github.com/panimalarponnurangam/Led-control-using-Arduino/assets/121490826/2880ffc0-82be-4541-93a4-e7afd2cfbeaf)
 
 ## RESULT
